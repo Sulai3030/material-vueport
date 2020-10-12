@@ -7,18 +7,28 @@
       <md-content>
         <md-list class="md-triple-line">
           <div class="md-list-item-text">
-            <span>BlackHealthMatters.com  2020-</span>  
-            <span>Write Articles focusing on Health targeted to African Americans</span>
-            <span>Regularly manage social media platforms to advertise web content</span>
-          </div>  
-        </md-list> 
+
+            <section id="user-goal">
+                <span>
+                  <a>BlackHealthMatters.com 2020-</a>
+                  <p>{{ courseGoal }}</p>
+                  <p>Learn More <a v-bind:href="vueLink">about Vue</a></p>
+                </span>
+                <span>
+                  Write Articles focusing on Health targeted to African Americans
+                </span>
+            </section>
+
+              Regularly manage social media platforms to advertise web content
+          </div>
+        </md-list>
       </md-content>
     </md-card>
     <md-card md-with-hover>
       <md-content>
         <md-list class="md-triple-line">
           <div class="md-list-item-text">
-            <span>New York City Budget Meals Examiner – Examiner.com  2009-2017</span>  
+            <span>New York City Budget Meals Examiner – Examiner.com  2009-2017</span>
             <span>Wrote, cooked and tested new recipes for Examiner.com </span>
             <span>Regularly manage social media platforms to advertise web content</span>
           </div>  
