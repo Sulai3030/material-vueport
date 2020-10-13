@@ -56,4 +56,18 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.md-content {
+  width: 200px;
+  height: 200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.md-card {
+  width: 1000px;
+  margin: 40px 250px;
+  display: inline-block;
+  vertical-align: top;
+  align-self: center;
+}</style>

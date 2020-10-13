@@ -1,53 +1,37 @@
 <template>
   <div id="skills">
-    <b-list-group>
-      <p>
-        <b-list-group-item
-          >Languages: JavaScript, Python, CSS, HTML5</b-list-group-item
-        >
-      </p>
-
-      <p>
-        <b-list-group-item
-          >Libraries: VueJs, React.js, React Native, Express, Node JS, jQuery,
-          AJAX, Bootstrap</b-list-group-item
-        >
-      </p>
-
-      <p>
-        <b-list-group-item
-          >Databases: MongoDB, MySQL, NoSQL, Firebase</b-list-group-item
-        >
-      </p>
-      <p><b-list-group-item>Templates: Handlebars</b-list-group-item></p>
-      <p><b-list-group-item>Version Control: Git/GitHub</b-list-group-item></p>
-      <p><b-list-group-item>Testing: Jest/Enzyme</b-list-group-item></p>
-      <p><b-list-group-item>Platforms: Drupal, WordPress</b-list-group-item></p>
-      <b-list-group-item
-        >Collaboration Software: Slack, Salesforce</b-list-group-item
-      >
-
-      <p>
-        <b-list-group-item
-          >Creative Cloud: Photoshop, Illustrator, Lightroom</b-list-group-item
-        >
-      </p>
-      <p>
-        <b-list-group-item>Image Editors: GIMP, Photoshop</b-list-group-item>
-      </p>
-      <p><b-list-group-item>Amazon Web Services (AWS)</b-list-group-item></p>
-      <p>
-        <b-list-group-item
-          >Creative Cloud: Photoshop, Illustrator, Lightroom</b-list-group-item
-        >
-      </p>
-      <b-list-group-item>Amazon Web Services (AWS)</b-list-group-item>
-    </b-list-group>
+    <md-content>
+       <md-list-item> Languages: JavaScript, Python, CSS, HTML5</md-list-item>
+      <md-list-item>  Libraries: VueJs, React.js, React Native, Express, Node JS, jQuery, AJAX, Bootstrap</md-list-item>
+      <md-list-item>Databases: MongoDB, MySQL, NoSQL, Firebase</md-list-item>
+      <md-list-item>Templates: Handlebars</md-list-item>
+      <md-list-item>Version Control: Git/GitHub</md-list-item>
+      <md-list-item>Testing: Jest/Enzyme</md-list-item>
+      <md-list-item>Platforms: Drupal, WordPress</md-list-item>
+      <md-list-item>Collaboration Software: Slack, Salesforce</md-list-item>
+      <md-list-item>Creative Cloud: Photoshop, Illustrator, Lightroom</md-list-item>
+      <md-list-item>Image Editors: GIMP, Photoshop</md-list-item>
+      <md-list-item>Amazon Web Services (AWS)</md-list-item>
+      <md-list-item>Creative Cloud: Photoshop, Illustrator, Lightroom</md-list-item>
+      <md-list-item>Amazon Web Services (AWS)</md-list-item> 
+    </md-content>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 
-export default {};
+export default {
+  name: 'SingleLine'
+};
 </script>
+
+<style lang="scss" scoped>
+  .md-list {
+    width: 320px;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid rgba(#000, .12);
+  }
+</style>

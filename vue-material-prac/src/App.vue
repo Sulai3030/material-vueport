@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/Applications">Applications</router-link> |
-      <router-link to="/Experience">Experience</router-link> | 
+      <router-link to="/Experience">Experience</router-link> |
       <router-link to="/Clients">Clients</router-link> |
       <router-link to="/Skills">Skills</router-link> |
       <router-link to="/Blog">Blog</router-link> |
@@ -18,7 +18,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
-  color: #2c3e50;
+  color: #ffffff;
+  background-color: #2ca6f2;
 }
 
 #nav {
@@ -26,10 +27,10 @@
   text-align: center;
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #F29F2C;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #F29F2C;
     }
   }
 }
@@ -60,4 +61,7 @@ const linkActiveClass = "my-link-active-class";
 Vue.material.router.linkActiveClass = linkActiveClass;
 
 // pass custom class to Vue Router
+{
+ "RegularToolbar";
+}
 </script>

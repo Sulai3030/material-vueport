@@ -1,49 +1,65 @@
 <template>
-  <div class="page-container">
-    <md-app>
-      <md-app-toolbar class="md-primary">
+  <div class="page-container md-layout-column">
+    <md-drawer :md-active.sync="showNavigation" md-swipeable>
+      <md-toolbar class="md-transparent" md-elevation="0">
         <span class="md-title">Sulai Sivadel</span>
-      </md-app-toolbar>
-      <md-app-toolbar class="md-primary">
-        <span class="md-title">Web Developer</span>
-      </md-app-toolbar>
-      <md-app-drawer md-permanent="full">
-        <md-toolbar class="md-transparent" md-elevation="0"></md-toolbar>
-        <md-list>
-          <md-list-item>
-            <span class="md-list-item-text">Home</span>
-          </md-list-item>
-          <md-list-item>
-            <span class="md-list-item-text">Apps</span>
-          </md-list-item>
-          <md-list-item>
-            <span class="md-list-item-text">Experince</span>
-          </md-list-item>
-          <md-list-item>
-            <span class="md-list-item-text">Skills</span>
-          </md-list-item>
-          <md-list-item>
-            <span class="md-list-item-text">Recipes</span>
-          </md-list-item>
-        </md-list>
-      </md-app-drawer>
-    </md-app>
-    <md-card md-with-hover>
-      <md-ripple>
-        <md-card-header>
-          <div class="md-title"></div>
-          <div class="md-subhead"></div>
-        </md-card-header>
-        <md-card-content> </md-card-content>
-        <md-card-content> </md-card-content>
-        <md-card-actions>
-          <md-button>More Info</md-button>
-        </md-card-actions>
-      </md-ripple>
-    </md-card>
+      </md-toolbar>
+
+      <md-list>
+        <md-list-item>
+          <md-icon>move_to_inbox</md-icon>
+          <span class="md-list-item-text"></span>
+        </md-list-item>
+
+        <md-list-item>
+          <md-icon>send</md-icon>
+          <span class="md-list-item-text"> </span>
+        </md-list-item>
+
+        <md-list-item>
+          <md-icon>delete</md-icon>
+          <span class="md-list-item-text"></span>
+        </md-list-item>
+
+        <md-list-item>
+          <md-icon>error</md-icon>
+          <span class="md-list-item-text"></span>
+        </md-list-item>
+      </md-list>
+    </md-drawer>
+    <md-drawer class="md-right" :md-active.sync="showSidepanel">
+      <md-toolbar class="md-transparent" md-elevation="0">
+        <span class="md-title"></span>
+      </md-toolbar>
+      <md-list>
+        <md-list-item>
+          <span class="md-list-item-text"></span>
+          <md-button class="md-icon-button md-list-action">
+            <md-icon class="md-primary"></md-icon>
+          </md-button>
+        </md-list-item>
+        <md-list-item>
+          <span class="md-list-item-text"></span>
+          <md-button class="md-icon-button md-list-action">
+            <md-icon class="md-primary"></md-icon>
+          </md-button>
+        </md-list-item>
+        <md-list-item>
+          <span class="md-list-item-text"></span>
+          <md-button class="md-icon-button md-list-action">
+            <md-icon></md-icon>
+          </md-button>
+        </md-list-item>
+      </md-list>
+    </md-drawer>
+    <md-content>
+      Ambitious, user-focused Web and Software Developer with experience working in teams and independently. Has strong project management experience and experience delegating responsibilities to a team from time at Maximus where he spearheaded a project to create the audio/ADA compliant portion of a new healthcare plan for 1.5 million citizens of New York State.
+    </md-content>
+   
+    
+   
   </div>
 </template>
-
 <style lang="scss" scoped>
 .md-app {
   max-height: 400px;
@@ -57,24 +73,48 @@
 .md-toolbar + .md-toolbar {
   margin-top: 16px;
   width: 80%;
+  color: #0066A6;
 }
 .md-content {
-  width: 1000px;
+  width: 800px;
   height: 200px;
-  display: inline-flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
 }
 .md-card {
-  width: 1800px;
-  margin: 4px;
+  width: 1000px;
+  margin: 40px;
   display: inline-block;
   vertical-align: top;
+  align-self: center;
 }
+.page-container {
+    min-height: 1300px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(#000, .12);
+  }
+
+   // Demo purposes only
+  .md-drawer {
+    width: 230px;
+    max-width: calc(100vw - 125px);
+  }
+
+  .md-content {
+    padding: 16px;
+  }
+  
 </style>
 
 <script>
-
-export default {}
+export default {
+    name: 'Temporary',
+    data: () => ({
+      showNavigation: false,
+      showSidepanel: false
+    })
+  }
 </script>
 Code copied!
