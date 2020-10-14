@@ -1,24 +1,36 @@
 <template>
   <div>
-    <md-toolbar class="md-transparent">
-      <h3 class="md-title">Clients and Clips</h3>
-    </md-toolbar>
     <md-card md-with-hover>
       <md-content>
         <md-list class="md-triple-line">
           <div class="md-list-item-text">
-
             <section id="user-goal">
                 <span>
-                  <a>BlackHealthMatters.com 2020-</a>
-                  <p>{{ courseGoal }}</p>
-                  <p>Learn More <a v-bind:href="vueLink">about Vue</a></p>
+                  <p></p>
+                  <p></p>
+                </span>
+                <span> 
+                </span>
+            </section>
+              Client & Clips
+          </div>
+        </md-list>
+      </md-content>
+    </md-card>
+    <md-card md-with-hover>
+      <md-content>
+        <md-list class="md-triple-line"> 
+          <div class="md-list-item-text">
+            <section id="user-goal">
+                <span>
+                  <a>BlackHealthMatters.com 2020 &emsp;-</a>
+                  <p></p>
+                  <p></p>
                 </span>
                 <span>
                   Write Articles focusing on Health targeted to African Americans
                 </span>
             </section>
-
               Regularly manage social media platforms to advertise web content
           </div>
         </md-list>
@@ -78,13 +90,23 @@
   height: 200px;
   display: inline-flex;
   justify-content: center;
-  align-items: center;
+  font-size: 24px;
+  align-content: center;
 }
 .md-card {
   width: 1200px;
   margin: 4px;
   display: inline-block;
-  vertical-align: top;
+}
+.md-title{
+  color: #ffffff
+}
+.md-list-item-text{
+  color: rgb(8, 8, 8);
+}
+.md-toolbar + .md-toolbar {
+    margin-top: 16px;
+    width: 1200px;
 }
 </style>
 
@@ -94,5 +116,8 @@ export default {
 };
 {
  "RegularCards";
+};
+{
+  "RegularToolbar"
 }
 </script>

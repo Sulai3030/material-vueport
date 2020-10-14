@@ -52,9 +52,24 @@
         </md-list-item>
       </md-list>
     </md-drawer>
-    <md-content>
-      Ambitious, user-focused Web and Software Developer with experience working in teams and independently. Has strong project management experience and experience delegating responsibilities to a team from time at Maximus where he spearheaded a project to create the audio/ADA compliant portion of a new healthcare plan for 1.5 million citizens of New York State.
-    </md-content>
+    <md-card md-with-hover>
+      <md-ripple>
+        <md-card-header>
+          <div class="md-title">Sulai Sivadel</div>
+          <div class="md-subhead">Web Engineer</div>
+        </md-card-header>
+        <md-card-content>
+          Ambitious, user-focused Web and Software Developer with experience working in teams and independently. Has strong project management          experience and experience delegating responsibilities to a team from time at Maximus where he spearheaded a project to create the audio/ADA         compliant portion of a new healthcare plan for 1.5 million citizens of New York State.
+        </md-card-content>
+        <md-card-content>
+          A flexible and quick learner committed to constantly learning learning and evolving his skills to stay abreast of ever-evolving technologies and trends in the industry. Communicative, knowledgeable and steadfast with excellent computer engineering skills learned in the Columbia University Coding Bootcamp where he created projects in HTML5, CSS, JavaScript, VueJS, and ReactJS.
+        </md-card-content>
+        <md-card-actions>
+          <md-button>Action</md-button>
+          <md-button>Action</md-button>
+        </md-card-actions>
+      </md-ripple>
+    </md-card>
    
     
    
@@ -79,11 +94,10 @@
   width: 800px;
   height: 200px;
   display: inline-block;
-  justify-content: center;
-  align-items: center;
+  padding: 16px;
 }
 .md-card {
-  width: 1000px;
+  width: 800px;
   margin: 40px;
   display: inline-block;
   vertical-align: top;
@@ -94,16 +108,13 @@
     overflow: hidden;
     position: relative;
     border: 1px solid rgba(#000, .12);
+    margin: 60px;
   }
 
    // Demo purposes only
   .md-drawer {
     width: 230px;
     max-width: calc(100vw - 125px);
-  }
-
-  .md-content {
-    padding: 16px;
   }
   
 </style>
