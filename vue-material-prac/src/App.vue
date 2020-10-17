@@ -19,7 +19,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #ffffff;
-  background-color: #2ca6f2;
+  background-color:#004069;
 }
 
 #nav {

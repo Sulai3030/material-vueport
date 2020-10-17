@@ -20,19 +20,21 @@
     <md-card md-with-hover>
       <md-content>
         <md-list class="md-triple-line"> 
-          <div class="md-list-item-text">
-            <section id="user-goal">
-                <span>
-                  <a>BlackHealthMatters.com 2020 &emsp;-</a>
-                  <p></p>
-                  <p></p>
-                </span>
-                <span>
-                  Write Articles focusing on Health targeted to African Americans
-                </span>
-            </section>
-              Regularly manage social media platforms to advertise web content
-          </div>
+             <a>BlackHealthMatters.com 2020 &emsp;-
+            </a>
+               <md-list-item>
+                Write Articles focusing on Health targeted to African Americans
+                </md-list-item>
+                <md-list-item>
+                Regularly manage social media platforms to advertise web content
+                </md-list-item>
+            <md-list-item>
+              https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/
+              https://blackhealthmatters.com/ 
+            </md-list-item>        
+            <md-list-item>
+              https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/
+            </md-list-item>
         </md-list>
       </md-content>
     </md-card>
@@ -40,8 +42,11 @@
       <md-content>
         <md-list class="md-triple-line">
           <div class="md-list-item-text">
-            <span>New York City Budget Meals Examiner – Examiner.com  2009-2017</span>
-            <span>Wrote, cooked and tested new recipes for Examiner.com </span>
+             <md-list-item>New York City Budget Meals Examiner – Examiner.com  2009-2017
+            </md-list-item>
+            <md-list-item>
+              Wrote, cooked and tested new recipes for Examiner.com 
+             </md-list-item>
             <span>Regularly manage social media platforms to advertise web content</span>
           </div>  
         </md-list> 
@@ -55,6 +60,10 @@
             <span>Wrote Film and Television Reviews</span>
             <span>Write column on technology start-ups</span>
             <span>Wrote Op-Ed column on life in New York City</span>
+            <md-list-item>
+        <md-icon></md-icon>
+        <span class="md-list-item-text"></span>
+      </md-list-item>
           </div>  
         </md-list> 
       </md-content>
