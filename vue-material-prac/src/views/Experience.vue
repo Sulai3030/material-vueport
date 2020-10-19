@@ -4,82 +4,55 @@
       <md-ripple>
         <md-card-header>
           <div class="md-title">
-            <md-list-item href="https://blackhealthmatters.com"       target="_blank">BlackHealthMatters.com
+            <md-list-item href="https://blackhealthmatters.com"   target="_blank">BlackHealthMatters.com
             </md-list-item>
-          </div>
-          <div class="md-subhead">Duties:</div>
-          <md-list-item>Write Health Articles targeted to an African American audience</md-list-item> 	
-          <div class="md-subhead">•	https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/</div>
+          </div>	
         </md-card-header>
-        <md-card-content>
-        
-        </md-card-content>
-        <md-card-actions>
-          <md-button>Action</md-button>
-          <md-button>Action</md-button>
-        </md-card-actions>
       </md-ripple>
-    </md-card>
-    <md-card md-with-hover>
-      <md-ripple>
-        <md-card-header>
-          <div class="md-title">Card with hover effect</div>
-          <div class="md-subhead">It also have a ripple</div>
-        </md-card-header>
-        <md-card-content>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non.
-        </md-card-content>
-        <md-card-actions>
-          <md-button>Action</md-button>
-          <md-button>Action</md-button>
-        </md-card-actions>
-      </md-ripple>
-    </md-card>
-    <md-card md-with-hover>
-      <md-ripple>
-        <md-card-header>
-          <div class="md-title">Card with hover effect</div>
-          <div class="md-subhead">It also have a ripple</div>
-        </md-card-header>
-        <md-card-content>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non.
-        </md-card-content>
-        <md-card-actions>
-          <md-button>Action</md-button>
-          <md-button>Action</md-button>
-        </md-card-actions>
-      </md-ripple>
-    </md-card>
-    <md-card md-with-hover>
-      <md-ripple>
-        <md-card-header>
-          <div class="md-title">Card with hover effect</div>
-          <div class="md-subhead">It also have a ripple</div>
-        </md-card-header>
-        <md-card-content>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non.
-        </md-card-content>
-        <md-card-actions>
-          <md-button>Action</md-button>
-          <md-button>Action</md-button>
-        </md-card-actions>
-      </md-ripple>
-    </md-card>
-    <md-card md-with-hover>
-      <md-ripple>
-        <md-card-header>
-          <div class="md-title">Card with hover effect</div>
-          <div class="md-subhead">It also have a ripple</div>
-        </md-card-header>
-        <md-card-content>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non.
-        </md-card-content>
-        <md-card-actions>
-          <md-button>Action</md-button>
-          <md-button>Action</md-button>
-        </md-card-actions>
-      </md-ripple>
-    </md-card>
+      <md-list class="md-triple-line">
+      <md-list-item>
+        <div class="md-list-item-text" href="https://blackhealthmatters.com"   target="_blank">
+          <span>BlackHealthMatters.com 2019 - Present</span>
+          <span>• Write Health Articles targeted to an African American audience</span>
+          <span>• https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/</span>
+          <span>• https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/</span>
+        </div>
+      </md-list-item>
+      <md-divider class="md-inset"></md-divider>
+      <md-list-item>
+        <div class="md-list-item-text">
+          <span>Examiner.com 	2009 - 2017	</span>
+          <span>•	Wrote, cooked and tested new recipes for Examiner.com</span>
+          <span>•	Regularly manage social media platforms to advertise web content</span>
+        </div>
+      </md-list-item>
+      <md-divider class="md-inset"></md-divider>
+      <md-list-item>
+        <div class="md-list-item-text">
+          <span>The Princeton Review.com </span>
+          <span>•	Proofread and rewrote (15-20) articles and promotional copy to adhere to SEO best practices which
+          resulted in</span>
+          <span> increased readership.</span>
+          <span>•	Performed Quality Assurance on the company’s web pages to improve readability and page rank</span>
+          <span>in Google
+          searches: FAQs: The Best 169 Law Schools: 2015 Edition”;</span>
+          <span>“Strategies to Succeed in Law School”;
+          “Strategies for Second–Time Applicants”
+          </span>
+        </div>
+      </md-list-item>
+      <md-divider class="md-inset"></md-divider>
+      <md-list-item>
+        <div class="md-list-item-text">
+          <span>Pearson Education                                                    </span>
+          <span>Order confirmation</span>
+          <p>Thank you for your recent order from Amazon</p>
+        </div>
+      </md-list-item>
+    </md-list>
+  </md-card>
+
+  
   </div>
 </template>
 
@@ -90,11 +63,20 @@
     display: inline-block;
     vertical-align: top;
   }
+  .md-list {
+    width: 1020px;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid rgba(#000, .12);
+  }
 </style>
 
 <script>
 export default {
   name: 'RegularCards'
 }
- 'PaperContent'
+'PaperContent'
+
+'TripleLine'
 </script>
