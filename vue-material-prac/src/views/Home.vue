@@ -92,15 +92,14 @@
   color: #0066A6;
 }
 .md-content {
-  width: 1800px;
+  width: 1400px;
   height: 200px;
   display: inline-block;
   padding: 16px;
-  background-color: #ffffff
 }
 .md-card {
   width: 1400px;
-  margin: 20px, 20px;
+  margin: 20px, 20px, 20px, 60px;
   display: inline-block;
   vertical-align: top;
   align-self: center;
@@ -113,6 +112,7 @@
     border: 1px solid rgba(#000, .12);
     margin: 60px;
   }
+  
 
    // Demo purposes only
   .md-drawer {
@@ -142,5 +142,6 @@ export default {
     })
   }
   'ThemeColors',
-  'MediaCover'
+  'MediaCover',
+  'Normal'
 </script>

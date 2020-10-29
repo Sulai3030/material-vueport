@@ -170,7 +170,7 @@ export default {
   .md-card {
     width: 1000px;
     width: 1020px;
-    margin: 20px;
+    margin: 40px 250px;
     display: inline-block;
     vertical-align: top;
   }

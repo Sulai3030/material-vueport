@@ -1,75 +1,124 @@
 <template>
-  <div>
+  <div class="projects">
     <md-card md-with-hover>
       <md-ripple>
         <md-card-header>
-          <div class="md-title">
-            <md-list-item href="https://blackhealthmatters.com"   target="_blank">BlackHealthMatters.com
-            </md-list-item>
-          </div>	
         </md-card-header>
+        <md-card-content>
+          Project 1.
+          <p>Party Dash| https://partydash.com/</p>
+          <p>
+            Front-End Design
+          </p>
+          <section id="user-goal">
+            We built Party Dash with a simple goal in mind: to help party hosts
+            plan parties more easily. Responsibilities: Follow design specs
+            handed down from site owner. Used CSS and HTML to create inviting
+            website
+            <p>Technologies used: HTML, CSS, Bootstrap</p>
+            <p>More Info</p>
+            <p>{{ courseGoal }}</p>
+          </section>
+        </md-card-content>
+        <md-card-actions>
+          <md-button class="md-primary">Read More</md-button>
+        </md-card-actions>
       </md-ripple>
-      <md-list class="md-triple-line">
-      <md-list-item>
-        <div class="md-list-item-text" href="https://blackhealthmatters.com"   target="_blank">
-          <span>BlackHealthMatters.com 2019 - Present</span>
-          <span>• Write Health Articles targeted to an African American audience</span>
-          <span>• https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/</span>
-          <span>• https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/</span>
-        </div>
-      </md-list-item>
-      <md-divider class="md-inset"></md-divider>
-      <md-list-item>
-        <div class="md-list-item-text">
-          <span>Examiner.com 	2009 - 2017	</span>
-          <span>•	Wrote, cooked and tested new recipes for Examiner.com</span>
-          <span>•	Regularly manage social media platforms to advertise web content</span>
-        </div>
-      </md-list-item>
-      <md-divider class="md-inset"></md-divider>
-      <md-list-item>
-        <div class="md-list-item-text">
-          <span>The Princeton Review.com </span>
-          <span>•	Proofread and rewrote (15-20) articles and promotional copy to adhere to SEO best practices which
-          resulted in</span>
-          <span> increased readership.</span>
-          <span>•	Performed Quality Assurance on the company’s web pages to improve readability and page rank</span>
-          <span>in Google
-          searches: FAQs: The Best 169 Law Schools: 2015 Edition”;</span>
-          <span>“Strategies to Succeed in Law School”;
-          “Strategies for Second–Time Applicants”
-          </span>
-        </div>
-      </md-list-item>
-      <md-divider class="md-inset"></md-divider>
-      <md-list-item>
-        <div class="md-list-item-text">
-          <span>Pearson Education                                                    </span>
-          <span>Order confirmation</span>
-          <p>Thank you for your recent order from Amazon</p>
-        </div>
-      </md-list-item>
-    </md-list>
-  </md-card>
-
-  
+    </md-card>
+    <md-card md-with-hover>
+      <md-ripple>
+        <md-card-header>
+          <div class="md-title"></div>
+          <div class="md-subhead"></div>
+        </md-card-header>
+        <md-card-content>
+          Project 2.
+          <p></p>RuneSkype is our final project for the Columbia Coding Bootcamp. It is the newest
+          <p>and best way for you and your friends to interact while playing your favorite Role Playing Game
+          <p>(RPG). Getting Started Playing RuneSkype is easy, just download a copy from our homepage or our repo:</p>
+          Read More
+        </md-card-content>
+        <md-card-actions>
+          <md-button>Read More</md-button>
+        </md-card-actions>
+      </md-ripple>
+    </md-card>
+    <md-card md-with-hover>
+      <md-ripple>
+        <md-card-header>
+          <div class="md-title"></div>
+          <div class="md-subhead"></div>
+        </md-card-header>
+        <md-card-content>
+          <p>Project 3.</p>
+          The G.O.A.T. Voter
+          <p>
+          <p>The GOAT Voter APP provides a one-stop platform where individuals can search and access information about candidates that are running for political offices anywhere in the United States.
+          The GOAT Voter App is a useful tool that streamlines information and helps to increase voter participation.
+          <p>The App will allow users to create a user name and pass word to store their search history
+          How the GOAT Voter App works: By entering their zip code in a search button, users will be able to search and access detailed information about all candidates that are running for elections in their disctrict. In addition, users can enter their exact address to: find out where their polling site is located, request for free transportation on election day.</p>
+          For a full description of the GOAT Voter App, please visit the project page: 
+          <p></p>https://github.com/naz585/Project-2 www.goatvoter.org
+          <p></p>Requirements: MySQL
+          <p></p>Recommended module
+          Installation: NPM, Body-parser, .env, Express-Handlebars
+          <p>Configuration:</p>
+          Front End: Handlebars, Bootstrap, CSS, CSS Parallax
+          <p></p>Back End: Node.js, Express, Sequelize, Google Civic Information API
+          <p></p>Deployment: Heroku, Google Domain (www.goatvoter.org)  
+          <p></p>Read More
+        </md-card-content>
+        <md-card-actions>
+          <md-button>Read More</md-button>
+        </md-card-actions>
+      </md-ripple>
+    </md-card>
+    <md-card md-with-hover>
+      <md-ripple>
+        <md-card-header>
+          <div class="md-title"></div>
+          <div class="md-subhead"></div>
+        </md-card-header>
+        <md-card-content>
+          <p>Project 4.</p>
+          Beer Near Here
+          <p>
+          <p>Beer Near Here Beer Near Here is a project to successfully connect discerning beer drinkers in Manhattan with bars in the city that serve the beers that they like. We start with a brief survey that takes in their preferences and matches those answers with the Untappd database. Using this API we can populate a map using the Google Maps API that then lists the locations of bars and taverns t hat carry the user's beer preference.
+          Read More
+          <p></p>Deployment: Heroku, Google Domain (www.goatvoter.org)  
+          <p></p>Read More
+        </md-card-content>
+        <md-card-actions>
+          <md-button>Read More</md-button>
+        </md-card-actions>
+      </md-ripple>
+    </md-card>
+    
   </div>
 </template>
 
 <style lang="scss" scoped>
-  .md-card {
-    width: 1020px;
-    margin: 20px;
-    display: inline-block;
-    vertical-align: top;
+.md-content {
+  width: 1200px;
+  height: 1200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   }
-  .md-list {
-    width: 1020px;
-    max-width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    border: 1px solid rgba(#000, .12);
-  }
+.md-card {
+  width: 1000px;
+  margin: 40px 250px;
+  display: inline-block;
+  vertical-align: top;
+  align-self: center;
+  background-color: #ffffff;
+}
+.md-card-content{
+  color: #0f4069;
+}
+.projects{
+  background-color:#0f4069;
+}
 </style>
 
 <script>

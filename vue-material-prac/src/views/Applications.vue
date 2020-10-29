@@ -1,10 +1,8 @@
 <template>
-  <div>
+  <div class="projects">
     <md-card md-with-hover>
       <md-ripple>
         <md-card-header>
-          <div class="md-title">Sulai Sivadel</div>
-          <div class="md-subhead">Web Developer</div>
         </md-card-header>
         <md-card-content>
           Project 1.
@@ -23,7 +21,7 @@
           </section>
         </md-card-content>
         <md-card-actions>
-          <md-button>Read More</md-button>
+          <md-button class="md-primary">Read More</md-button>
         </md-card-actions>
       </md-ripple>
     </md-card>
@@ -95,25 +93,33 @@
         </md-card-actions>
       </md-ripple>
     </md-card>
-    <div></div>
+    
   </div>
 </template>
 
-<script></script>
+<script>
+</script>
 
 <style lang="scss" scoped>
 .md-content {
-  width: 200px;
-  height: 200px;
+  width: 1200px;
+  height: 1200px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-}
+  }
 .md-card {
   width: 1000px;
   margin: 40px 250px;
   display: inline-block;
   vertical-align: top;
   align-self: center;
+  background-color: #0f4069;
+}
+.md-card-content{
+  color: #F29F2C;;
+}
+.projects{
+  background-color:#fff;
 }
 </style>
