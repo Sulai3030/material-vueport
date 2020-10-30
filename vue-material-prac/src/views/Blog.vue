@@ -107,4 +107,11 @@ export default {
       background: md-get-palette-color(grey, 500);
     }
   }
+  #app{
+    background-color: #0f4069;
+  }
+  .md-content{
+    color: #0f4069
+  }
+
 </style>

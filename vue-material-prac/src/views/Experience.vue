@@ -6,13 +6,14 @@
         </md-card-header>
         <md-card-content>
           Project 1.
-          <p>Party Dash| https://partydash.com/</p>
+          <p>Party Dash App | https://partydash.com/</p>
           <p>
             Front-End Design
           </p>
           <section id="user-goal">
             We built Party Dash with a simple goal in mind: to help party hosts
-            plan parties more easily. Responsibilities: Follow design specs
+            plan parties more easily. 
+            <p></p>Responsibilities: Follow design specs
             handed down from site owner. Used CSS and HTML to create inviting
             website
             <p>Technologies used: HTML, CSS, Bootstrap</p>
@@ -32,11 +33,13 @@
           <div class="md-subhead"></div>
         </md-card-header>
         <md-card-content>
-          Project 2.
-          <p></p>RuneSkype is our final project for the Columbia Coding Bootcamp. It is the newest
-          <p>and best way for you and your friends to interact while playing your favorite Role Playing Game
-          <p>(RPG). Getting Started Playing RuneSkype is easy, just download a copy from our homepage or our repo:</p>
-          Read More
+          Mayapple Center for the Arts and Humanities.
+          <p></p>Webmaster Jan 2019 - Present
+          <p>Updated and maintained website (Drupal 7 platform), creating links between Mayapple’s homepage and their yearly summer program at Sarah Lawrence College. Added, removed, and refined content for Events, Faculty, Executive Staff, Executive Board, and Advisory Board pages.     
+          <p>Key Accomplishments:</p>
+          <p> ● Removed departed Advisory Board members from Advisory Board page and added new Advisory Board Members</p>
+          <p> ●	Input new faculty on Faculty page and Executive Board listing and names.</p>
+          <p> ●	Communicated foundation’s message through updates on homepage about mission, events, enrollment opportunities and scholarships</p>
         </md-card-content>
         <md-card-actions>
           <md-button>Read More</md-button>
@@ -50,23 +53,19 @@
           <div class="md-subhead"></div>
         </md-card-header>
         <md-card-content>
-          <p>Project 3.</p>
-          The G.O.A.T. Voter
+          <p>Regeneron Inc.</p>
+          <p>Technical Writer/ Content Management Writer/Editor,  Independent  Contractor                               
+          <p>Created and edited complex technical documentation (Runbooks, cheat sheets, etc.) in plain language that allowed clear communication between technical and non-technical end-users in understanding standard operating procedure (SOP) of different departments (IT, Laboratories, etc.). 
+            <p></p>Collaborated with Project Managers & Subject Matter Experts (SMEs) to develop and maintain site content (FTP, Networking, etc.) for divisions by conducting face-to-face and teleconference interviews with SMEs about the day-to-day operations of each division to accumulate Mission Critical data. 
+            <p></p>Individually created User-facing documentation through SharePoint to implement a smooth continuation of company business if Mission Critical issues occurred. 
           <p>
-          <p>The GOAT Voter APP provides a one-stop platform where individuals can search and access information about candidates that are running for political offices anywhere in the United States.
-          The GOAT Voter App is a useful tool that streamlines information and helps to increase voter participation.
-          <p>The App will allow users to create a user name and pass word to store their search history
-          How the GOAT Voter App works: By entering their zip code in a search button, users will be able to search and access detailed information about all candidates that are running for elections in their disctrict. In addition, users can enter their exact address to: find out where their polling site is located, request for free transportation on election day.</p>
-          For a full description of the GOAT Voter App, please visit the project page: 
-          <p></p>https://github.com/naz585/Project-2 www.goatvoter.org
-          <p></p>Requirements: MySQL
-          <p></p>Recommended module
-          Installation: NPM, Body-parser, .env, Express-Handlebars
-          <p>Configuration:</p>
-          Front End: Handlebars, Bootstrap, CSS, CSS Parallax
-          <p></p>Back End: Node.js, Express, Sequelize, Google Civic Information API
-          <p></p>Deployment: Heroku, Google Domain (www.goatvoter.org)  
-          <p></p>Read More
+            Key Accomplishments:
+            <p>● Interviewed 8 SMEs (division heads and assistant managers) for each division to accumulate all necessary data
+            </p>
+            <p>● Utilized SME-obtained data to create FTP, Network, and IT Runbook from project start to project finish
+           </p>
+          <p></p>
+          
         </md-card-content>
         <md-card-actions>
           <md-button>Read More</md-button>
@@ -80,13 +79,16 @@
           <div class="md-subhead"></div>
         </md-card-header>
         <md-card-content>
-          <p>Project 4.</p>
-          Beer Near Here
+          <p>Spruce Technology Inc.</p>
+          Technical Writer,  Independent  Contractor | (http://www1.nyc.gov/site/buildings/index.page
           <p>
-          <p>Beer Near Here Beer Near Here is a project to successfully connect discerning beer drinkers in Manhattan with bars in the city that serve the beers that they like. We start with a brief survey that takes in their preferences and matches those answers with the Untappd database. Using this API we can populate a map using the Google Maps API that then lists the locations of bars and taverns t hat carry the user's beer preference.
+          <p>Wrote and edited complex technical information to present in a clear concise way as User Guides and Manuals to aid end-users such as architects, contractors, superintendents and the general public in understanding and using the online portal for the New York City’s Department of Buildings’ website (Microsoft Dynamics CRM platform). Transformed pre-existing design specifications, project plans, text plans, research and business correspondence into online templates for general public access.
           Read More
-          <p></p>Deployment: Heroku, Google Domain (www.goatvoter.org)  
-          <p></p>Read More
+          <p>Key Accomplishments</p>  
+          <p>● Converted thousands of pre-existing paper documents from the Department of Building’s inception in 1936 into easily-accessible and understandable online information that is easily accessed and used by the general public
+          <p>● Transformed paper documents required of NYC citizens, businesses, homeowners, architects, etc. seeking government permission to perform repairs, modifications, builds, scaffoldings, etc., into easily found usable online templates</p>
+          <p>● Created content for About, Tenant, Homeowner, Business, Industry, Safety, and Codes portals.</p>
+          <p></p>●	Designed flowcharts in MS Visio for Instruction Manuals 
         </md-card-content>
         <md-card-actions>
           <md-button>Read More</md-button>

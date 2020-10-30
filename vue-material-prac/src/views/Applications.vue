@@ -117,7 +117,7 @@
   background-color: #0f4069;
 }
 .md-card-content{
-  color: #F29F2C;;
+  color: #F29F2C;
 }
 .projects{
   background-color:#fff;

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <md-card md-with-hover>
       <md-ripple>
         <md-card-header>
@@ -10,13 +10,9 @@
       </md-ripple>
       <md-card md-with-hover>
       <md-ripple>
-        <md-card-header>
-          <div class="md-title"></div>
-          <div class="md-subhead" ></div>
-        </md-card-header>
         <md-card-content>
           <div class="md-list-item-text" href="https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/"   target="_blank">
-            <md-list-item href="https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/"   target="_blank">BlackHealthMatters.com   2019 -
+            <md-list-item a v-bind:href="link">BlackHealthMatters.com   2019 -
             Present 
             </md-list-item>
             <span class="md-list-item-text">• Write Health Articles targeted to an African American audience</span>
@@ -102,7 +98,7 @@
         <md-card-content>
           <div class="md-list-item-text" href="https://screenrant.com/author/sulai/"   target="_blank">
           <span class="md-list-item-text">
-            <a v-bind:href="link">• https://screenrant.com/author/sulai/</a>
+            • https://screenrant.com/author/sulai/
           </span>
           <span class="md-list-item-text">•	Wrote multiple daily posts of varying length about upcoming Hollywood movies on deadline</span>
           <br />
@@ -116,6 +112,9 @@
 </template>
 
 <style lang="scss" scoped>
+.main{
+  background-color: #ffffff;
+}
 .md-card {
     width: 1120px;
     margin: 40px 250px;
@@ -132,6 +131,7 @@
   }
 .md-ripple{
     width: 1000px;
+    color: #F29F2C;
   }
 .md-title{
     width: 1000px
@@ -145,17 +145,21 @@
 }
 .md-list-item-text{
   width: 1000px;
+  color:#F29F2C;
+}
+.md-with-hover{
+  background-color: #0f4069;
 }
 </style>
 
 <script>
 export default {
   mounted(){
-    console.log('Compones mounted.')
+    console.log('Components mounted.')
   },
   data(){
     return{
-      link: 'https://screenrant.com/author/sulai/'
+      link: 'https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/'
     }
   },
   name: 'RegularCards'

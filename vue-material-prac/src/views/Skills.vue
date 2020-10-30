@@ -159,7 +159,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .md-list {
+.md-list {
     width: 1020px;
     max-width: 100%;
     display: inline-block;
@@ -167,18 +167,29 @@ export default {
     border: 1px solid rgba(#000, .12);
   }
 
-  .md-card {
+.md-card {
     width: 1000px;
     width: 1020px;
     margin: 40px 250px;
     display: inline-block;
     vertical-align: top;
+    background-color: #0f4069;
   }
-  .md-list-item-content{
+.md-list-item-content{
     width: 1000px;
+    color: #F29F2C;
   }
+.md-card-content{
+  color: #F29F2C;
+}
+.md-list-item-content{
+  color: #F29F2C;
+}
+.md-triple-line{
+  color: #F29F2C;
+}
 
-  .md-layout-item {
+.md-layout-item {
     height: 40px;
 
     &:nth-child(1) {
