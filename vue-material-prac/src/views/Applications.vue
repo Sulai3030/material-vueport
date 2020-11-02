@@ -6,7 +6,7 @@
         </md-card-header>
         <md-card-content>
           Project 1.
-          <p>Party Dash| https://partydash.com/</p>
+          <a v-bind:href="link" target=_blank><p>Party Dash| https://partydash.com/</p></a>
           <p>
             Front-End Design
           </p>
@@ -98,7 +98,24 @@
 </template>
 
 <script>
+export default {
+  mounted(){
+    console.log('Components mounted.')
+  },
+  data(){
+    return{
+      link: 'https://partydash.com/'
+    }
+  },
+  name: 'RegularCards'
+}
+'PaperContent'
+
+'SingleLine'
+
+'ListTypes'
 </script>
+
 
 <style lang="scss" scoped>
 .md-content {

@@ -8,25 +8,28 @@
           </div>	
         </md-card-header>
       </md-ripple>
+      </md-card>
       <md-card md-with-hover>
       <md-ripple>
-        <md-card-content>
-          <div class="md-list-item-text" href="https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/"   target="_blank">
-            <md-list-item a v-bind:href="link">BlackHealthMatters.com   2019 -
-            Present 
-            </md-list-item>
-            <span class="md-list-item-text">• Write Health Articles targeted to an African American audience</span>
-            <span class="md-list-item-text">• https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/</span>
-            <span>• https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/</span>
-            <br />
+        <md-card-header>
+          <div class="md-title"></div>
+          <div class="md-subhead">
+            <a v-bind:href="link" target=_blank>BlackHealthMatters 2019- Present</a>
           </div>
+        </md-card-header>
+        <md-card-content>
+          <div class="md-list-item-text">
+          <span class="md-list-item-text">• Write Health Articles targeted to an          African American audience</span>
+          <span class="md-list-item-text" href="https://blackhealthmatters.com"   target="_blank">• https://blackhealthmatters.com/       working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to      -be-an-advocate-for-you/</span>
+          <span>• https://blackhealthmatters.com/       lauren-lee-talks-kidney-disease-breakthroughs/</span>
+          <br />
+        </div>
         </md-card-content>
         <md-card-actions>
         </md-card-actions>
       </md-ripple>
   </md-card>
-  </md-card>
-  <md-card md-with-hover>
+    <md-card md-with-hover>
       <md-ripple>
         <md-card-header>
           <div class="md-title"></div>
@@ -34,9 +37,8 @@
         </md-card-header>
         <md-card-content>
           <div class="md-list-item-text" href="https://blackhealthmatters.com"   target="_blank">
-          
           <span class="md-list-item-text">• Wrote, cooked and tested new recipes for Examiner.com</span>
-          <span class="md-list-item-text"> •	Regularly manage social media platforms to advertise web content</span>
+          <span class="md-list-item-text"> • Regularly manage social media platforms to advertise web content</span>
           <span></span>
           <br />
         </div>
@@ -56,7 +58,7 @@
           
           <span class="md-list-item-text">• Proofread and wrote (15-20) articles and promotional copy to adhere to SEO best practices which resulted in
           increased readership.</span>
-          <span class="md-list-item-text">•Performed Quality Assurance on the company’s web pages to improve readability and page rank in Google
+          <span class="md-list-item-text">• Performed Quality Assurance on the company’s web pages to improve readability and page rank in Google
           searches: FAQs: The Best 169 Law Schools: 2015 Edition”; 
           </span>
           <span>“Strategies to Succeed in Law School”;
@@ -149,6 +151,10 @@
 }
 .md-with-hover{
   background-color: #0f4069;
+  position: relative;
+}
+.md-subhead{
+  color:#ffffff
 }
 </style>
 
