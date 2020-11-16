@@ -139,4 +139,12 @@ export default {
 .projects{
   background-color:#fff;
 }
+p{
+  color:#F29F2C;
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+}
 </style>

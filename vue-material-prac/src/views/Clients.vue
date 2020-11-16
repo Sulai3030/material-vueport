@@ -95,16 +95,25 @@
       <md-ripple>
         <md-card-header>
           <div class="md-title"></div>
-          <div class="md-subhead" href="https://screenrant.com/author/sulai/"   target="_blank">ScreenRant.com</div>
+          <div class="md-subhead">ScreenRant.com</div>
         </md-card-header>
         <md-card-content>
-          <div class="md-list-item-text" href="https://screenrant.com/author/sulai/"   target="_blank">
-          <span class="md-list-item-text">
-            • https://screenrant.com/author/sulai/
-          </span>
+         
+          <div class="md-list-item-text">
+            <span class="md-list-item-text">
+              <button>
+                <a href="https://screenrant.com/author/sulai/" target="_blank">
+                  <p>
+                  Screenrant
+                  </p>
+                </a>
+              </button> 
+
+            </span>
           <span class="md-list-item-text">•	Wrote multiple daily posts of varying length about upcoming Hollywood movies on deadline</span>
           <br />
         </div>
+
         </md-card-content>
         <md-card-actions>
         </md-card-actions>
@@ -154,8 +163,17 @@
   position: relative;
 }
 .md-subhead{
-  color:#ffffff
+  color:#ffffff;
 }
+.a{
+  color:#ffffff;
+}
+.md-theme-default{
+  color: #ffffff;
+}
+ small {
+    display: block;
+  }
 </style>
 
 <script>
@@ -170,9 +188,11 @@ export default {
   },
   name: 'RegularCards'
 }
-'PaperContent'
+'PaperContent',
 
-'SingleLine'
+'SingleLine',
 
-'ListTypes'
+'ListTypes',
+
+'ButtonVsLink'
 </script>
