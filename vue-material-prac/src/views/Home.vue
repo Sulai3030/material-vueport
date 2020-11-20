@@ -14,29 +14,30 @@
         </div>
         <md-content>
           <p class="exciting">A flexible and quick learner committed to constantly learning learning and evolving his skills to stay abreast of ever-evolving technologies and trends in the industry. Communicative, knowledgeable and steadfast with excellent computer engineering skills learned in the Columbia University Coding Bootcamp where he created projects in HTML5, CSS, JavaScript, VueJS, and ReactJS.
-          </p>p
+          </p>
         </md-content> 
         <div class="square">
-          
         </div>
       </md-ripple>
     </md-card>
   </div>
 </template>
+
+
 <style lang="scss" scoped>
 .md-app {
   max-height: 400px;
   border: 1px solid;
+  width: 2000px;
 }
 .md-content {
-  width: 1200px;
   height: 200px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
-  color:#0f4f69;
+  color: #0f4069;
+}
+.md-layout-column{
+  width: 1800px;
 }
 // Demo purposes only
 .md-drawer {
@@ -56,13 +57,14 @@
   align-self: center;
   background-color: #ffffff;
 }
+.md-ripple{
+  color: #F29F2C;
+}
 .projects{
   background-color:#0f4069;
 }
 .md-card-header{
-  width: 1200px;
-  margin: 40px 250px;
-  display: inline-block;
+  width: 800px;
   color: #0f4f69;
   font-size: 16px;
 }
@@ -76,9 +78,8 @@ p::after {
 .square {
   height: 50px;
   width: 1500px;
-  align-self: right;
   background-color:  #DE841F;
-  float: right;
+  padding: 10px;
 }
 </style>
 

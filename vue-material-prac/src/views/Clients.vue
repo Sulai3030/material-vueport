@@ -12,21 +12,27 @@
       <md-card md-with-hover>
       <md-ripple>
         <md-card-header>
-          <div class="md-title"></div>
-          <div class="md-subhead">
-            <a v-bind:href="link" target=_blank>BlackHealthMatters 2019- Present</a>
-          </div>
+          <md-sub-head>
+            <div class="md-title">
+              <a href="https://www.BlackHealthMatters.com">BlackHealthMatters 2019 - Present</a>
+            </div>
+            <span class="md-list-item-text">
+                <a href="https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/" target="_blank">
+                  • "Lauren Lee talks kidney disease breakthroughs"
+                </a> 
+            </span>
+            <span class="md-list-item-text">
+                <a href="https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you//" target="_blank">
+                  • "Working with your doctor when you have kidney disease empowering yourself to be an advocate for you"
+                </a> 
+            </span>
+            <span class="md-list-item-text">
+                <a href="https://blackhealthmatters.com/is-there-a-light-at-the-end-of-the-dark-tunnel-of-kidney-disease-in-children/" target="_blank">
+                  • "Is There a Light at the End of the Dark Tunnel of Kidney Disease in Children?"
+                </a> 
+            </span>
+          </md-sub-head>
         </md-card-header>
-        <md-card-content>
-          <div class="md-list-item-text">
-          <span class="md-list-item-text">• Write Health Articles targeted to an          African American audience</span>
-          <span class="md-list-item-text" href="https://blackhealthmatters.com"   target="_blank">• https://blackhealthmatters.com/       working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to      -be-an-advocate-for-you/</span>
-          <span>• https://blackhealthmatters.com/       lauren-lee-talks-kidney-disease-breakthroughs/</span>
-          <br />
-        </div>
-        </md-card-content>
-        <md-card-actions>
-        </md-card-actions>
       </md-ripple>
   </md-card>
     <md-card md-with-hover>
@@ -95,25 +101,18 @@
       <md-ripple>
         <md-card-header>
           <div class="md-title"></div>
+          <a href="https://screenrant.com/author/sulai/" target="_blank">
           <div class="md-subhead">ScreenRant.com</div>
+          </a>
         </md-card-header>
         <md-card-content>
-         
           <div class="md-list-item-text">
-            <span class="md-list-item-text">
-              <button>
-                <a href="https://screenrant.com/author/sulai/" target="_blank">
-                  <p>
-                  Screenrant
-                  </p>
-                </a>
-              </button> 
-
+          <a href="https://screenrant.com/author/sulai/" target="_blank">
+            <span class="md-list-item-text">•	Wrote multiple daily posts of varying length about upcoming Hollywood movies on   deadline
             </span>
-          <span class="md-list-item-text">•	Wrote multiple daily posts of varying length about upcoming Hollywood movies on deadline</span>
+          </a>
           <br />
         </div>
-
         </md-card-content>
         <md-card-actions>
         </md-card-actions>
@@ -127,10 +126,11 @@
   background-color: #ffffff;
 }
 .md-card {
-    width: 1120px;
+    width: 2000px;
     margin: 40px 250px;
-    display: inline-block;
+    display: inline-flex;
     vertical-align: top;
+    color: #F29F2C;
   }
 .md-list {
     width: 1000px;
@@ -139,41 +139,54 @@
     vertical-align: top;
     border: 1px solid rgba(#000, .12);
     height: 600px;
-  }
-.md-ripple{
-    width: 1000px;
-    color: #F29F2C;
-  }
+}
 .md-title{
     width: 1000px
-  }
-.md-card-content{
-  color: #0f4069;
-  display: inline-block;
 }
-.center{
-    color: #0f4069;
+.md-card-content{
+  color:  #F29F2C;
+  display: inline-block;
 }
 .md-list-item-text{
   width: 1000px;
   color:#F29F2C;
 }
+.md-list-item{
+  color:#F29F2C
+}
 .md-with-hover{
   background-color: #0f4069;
   position: relative;
+  color:#F29F2C;
 }
 .md-subhead{
   color:#ffffff;
 }
-.a{
-  color:#ffffff;
+#a{
+  color:#F29F2C;
 }
 .md-theme-default{
-  color: #ffffff;
+  color: #F29F2C;
 }
- small {
+small {
     display: block;
   }
+.md-content {
+    width: 2000px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+.md-button-content{
+    color:#F29F2C
+  }
+.p{
+  color: #F29F2C;
+}
+p.exciting{
+  width: 700px;
+}
 </style>
 
 <script>
@@ -182,11 +195,9 @@ export default {
     console.log('Components mounted.')
   },
   data(){
-    return{
-      link: 'https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you/'
-    }
+    return{}
   },
-  name: 'RegularCards'
+name: 'RegularCards'
 }
 'PaperContent',
 
@@ -194,5 +205,12 @@ export default {
 
 'ListTypes',
 
-'ButtonVsLink'
+{
+  name: 'ButtonVsLink',
+  computed: {
+    pageUrl () {
+      return window.location.href
+    }
+  }
+}
 </script>
