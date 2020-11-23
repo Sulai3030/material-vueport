@@ -28,7 +28,7 @@
             </span>
             <span class="md-list-item-text">
                 <a href="https://blackhealthmatters.com/is-there-a-light-at-the-end-of-the-dark-tunnel-of-kidney-disease-in-children/" target="_blank">
-                  • "Is There a Light at the End of the Dark Tunnel of Kidney Disease in Children?"
+                  • "Is There a Light at the End of the Dark Tunnel of Kidney Disease in Children?" - An Interview with Dr. Gbadegesin
                 </a> 
             </span>
           </md-sub-head>
@@ -162,7 +162,7 @@
 .md-subhead{
   color:#ffffff;
 }
-#a{
+.a{
   color:#F29F2C;
 }
 .md-theme-default{
@@ -184,7 +184,7 @@ small {
 .p{
   color: #F29F2C;
 }
-p.exciting{
+.p.exciting{
   width: 700px;
 }
 </style>

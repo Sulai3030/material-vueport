@@ -6,7 +6,7 @@
         </md-card-header>
         <md-card-content>
           Project 1.
-          <p>Party Dash App | https://partydash.com/</p>
+          <p>Party Dash App | <a href="https://partydash.com/" target="_blank"> https://partydash.com/</a></p>
           <p>
             Front-End Design
           </p>
@@ -33,7 +33,7 @@
           <div class="md-subhead"></div>
         </md-card-header>
         <md-card-content>
-          Mayapple Center for the Arts and Humanities.
+          <a href="http://www.mayapplecenter.org/" target="_blank">Mayapple Center for the Arts and Humanities.</a>
           <p></p>Webmaster Jan 2019 - Present
           <p>Updated and maintained website (Drupal 7 platform), creating links between Mayapple’s homepage and their yearly summer program at Sarah Lawrence College. Added, removed, and refined content for Events, Faculty, Executive Staff, Executive Board, and Advisory Board pages.     
           <p>Key Accomplishments:</p>
@@ -80,8 +80,8 @@
         </md-card-header>
         <md-card-content>
           <p>Spruce Technology Inc.</p>
-          Technical Writer,  Independent  Contractor | (http://www1.nyc.gov/site/buildings/index.page
-          <p>
+          Technical Writer,  Independent  Contractor 
+          <p><a href="http://www1.nyc.gov/site/buildings/index.page">City of New York Department of Bulidings </a></p>
           <p>Wrote and edited complex technical information to present in a clear concise way as User Guides and Manuals to aid end-users such as architects, contractors, superintendents and the general public in understanding and using the online portal for the New York City’s Department of Buildings’ website (Microsoft Dynamics CRM platform). Transformed pre-existing design specifications, project plans, text plans, research and business correspondence into online templates for general public access.
           Read More
           <p>Key Accomplishments</p>  
@@ -91,7 +91,7 @@
           <p></p>●	Designed flowcharts in MS Visio for Instruction Manuals 
         </md-card-content>
         <md-card-actions>
-          <md-button>Read More</md-button>
+          <md-button><a href="http://www1.nyc.gov/site/buildings/index.page">Read More</a></md-button>
         </md-card-actions>
       </md-ripple>
     </md-card>

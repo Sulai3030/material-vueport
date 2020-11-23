@@ -34,7 +34,12 @@
       color: #F29F2C;
     }
   }
+  }
+.md-list-item-text{
+  width: 1000px;
+  color:#F29F2C;
 }
+
 </style>
 <script>
 import Vue from "vue";
