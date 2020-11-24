@@ -7,6 +7,7 @@
       <router-link to="/Clients">Clients</router-link> |
       <router-link to="/Skills">Skills</router-link> |
       <router-link to="/Blog">Blog</router-link> |
+      <router-link to="/Contact">Contact</router-link> |
     </div>
     <router-view />
   </div>
@@ -26,6 +27,7 @@
 #nav {
   padding: 30px;
   text-align: center;
+  width: 1200px;
   a {
     font-weight: bold;
     color: #F29F2C;

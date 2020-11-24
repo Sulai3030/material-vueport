@@ -17,12 +17,12 @@
             handed down from site owner. Used CSS and HTML to create inviting
             website
             <p>Technologies used: HTML, CSS, Bootstrap</p>
-            <p>More Info</p>
+            <p></p>
             <p>{{ courseGoal }}</p>
           </section>
         </md-card-content>
         <md-card-actions>
-          <md-button class="md-primary">Read More</md-button>
+          <md-button class="md-primary"><a href="https://partydash.com/pages/about-us">Read More</a></md-button>
         </md-card-actions>
       </md-ripple>
     </md-card>
