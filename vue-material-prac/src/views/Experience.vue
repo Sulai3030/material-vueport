@@ -18,7 +18,6 @@
             website
             <p>Technologies used: HTML, CSS, Bootstrap</p>
             <p></p>
-            <p>{{ courseGoal }}</p>
           </section>
         </md-card-content>
         <md-card-actions>

@@ -3,8 +3,8 @@
     <md-card md-with-hover>
       <md-ripple>
         <md-card-header>
-          <div class="md-title">
-            <h3><center>Clients</center></h3>
+          <div md-alignment="center">
+            <h2 class="h2">Clients</h2>
           </div>	
         </md-card-header>
       </md-ripple>
@@ -41,7 +41,7 @@
       <md-ripple>
         <md-card-header>
           <div class="md-title"></div>
-          <div class="md-subhead">Examiner.com 	2009 - 2017	</div>
+          <div class="md-subhead"><router-link to="Blog">Examiner.com 	2009 - 2017</router-link> </div>
         </md-card-header>
         <md-card-content>
           <div class="md-list-item-text" href="https://blackhealthmatters.com"   target="_blank">
@@ -142,6 +142,7 @@
 }
 .md-title{
     width: 1000px
+    
 }
 .md-card-content{
   color:  #F29F2C;
@@ -161,9 +162,6 @@
 }
 .md-subhead{
   color:#ffffff;
-}
-.a{
-  color:#F29F2C;
 }
 .md-theme-default{
   color: #F29F2C;
@@ -195,6 +193,10 @@ small {
 .p.exciting{
   width: 700px;
 }
+.h2{
+  text-align: center 
+}
+
 </style>
 
 <script>

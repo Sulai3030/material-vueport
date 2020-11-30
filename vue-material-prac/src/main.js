@@ -22,7 +22,7 @@ Vue.material.router.linkActiveClass = linkActiveClass;
 // pass custom class to Vue Material
 Vue.material.router.linkActiveClass = linkActiveClass;
 
-Vue.use(VueMaterial)
+Vue.use(VueMaterial);
 
 new Vue({
   router,

@@ -3,7 +3,7 @@
     <md-content>
      <p>
        <h1>
-          <a href="mailto:sulai3030@gmail.com">Please Contact Me via sulai3030 (at) gmail) (dot) com </a>
+          <a href="mailto:sulai3030@gmail.com">Please Contact Me via email sulai3030 (at) gmail) (dot) com </a>
        </h1>
     </md-content>
   </div>
@@ -12,7 +12,7 @@
 
 <style lang="scss" scoped>
   .md-content {
-    width: 1800px;
+    width: 1500px;
     height: 100px;
     display: inline-flex;
     justify-content: center;
