@@ -7,20 +7,29 @@
           <div class="md-subhead"><center>Web Developer</center></div>
         </md-card-header>
         <md-content>
-          Ambitious, user-focused Web and Software Developer with experience working in teams and independently. Has strong project management experience and experience delegating responsibilities to a team from time at Maximus where he spearheaded a project to create the audio/ADA compliant portion of a new healthcare plan for 1.5 million citizens of New York State.
+          Ambitious, user-focused Web and Software Developer with experience
+          working in teams and independently. Has strong project management
+          experience and experience delegating responsibilities to a team from
+          time at Maximus where he spearheaded a project to create the audio/ADA
+          compliant portion of a new healthcare plan for 1.5 million citizens of
+          New York State.
         </md-content>
-        <div class="square">  
-        </div>
+        <div class="square"></div>
         <md-content>
-          <p class="exciting">A flexible and quick learner committed to constantly learning learning and evolving his skills to stay abreast of ever-evolving technologies and trends in the industry. Communicative, knowledgeable and steadfast with excellent computer engineering skills learned in the Columbia University Coding Bootcamp where he created projects in HTML5, CSS, JavaScript, VueJS, and ReactJS.
+          <p class="exciting">
+            A flexible and quick learner committed to constantly learning
+            learning and evolving his skills to stay abreast of ever-evolving
+            technologies and trends in the industry. Communicative,
+            knowledgeable and steadfast with excellent computer engineering
+            skills learned in the Columbia University Coding Bootcamp where he
+            created projects in HTML5, CSS, JavaScript, VueJS, and ReactJS.
           </p>
-        </md-content> 
+        </md-content>
         <div class="square"></div>
       </md-ripple>
     </md-card>
   </div>
 </template>
-
 
 <style lang="scss" scoped>
 .md-app {
@@ -35,7 +44,7 @@
   color: #0f4069;
   width: 75%;
 }
-.md-layout-column{
+.md-layout-column {
   width: 1800px;
   margin: auto;
 }
@@ -57,21 +66,21 @@
   align-self: center;
   background-color: #ffffff;
 }
-.md-ripple{
-  color: #F29F2C;
+.md-ripple {
+  color: #f29f2c;
   margin: auto;
   width: 1200px;
 }
-.projects{
-  background-color:#0f4069;
+.projects {
+  background-color: #0f4069;
 }
-.md-card-header{
+.md-card-header {
   width: 800px;
-  color:  #0f4f69;
+  color: #0f4f69;
   font-size: 2rem;
 }
-p::after { 
-  background-color: #DE841F;
+p::after {
+  background-color: #de841f;
   color: red;
   font-weight: bold;
   height: 500px;
@@ -80,23 +89,23 @@ p::after {
 .square {
   height: 50px;
   width: 1500px;
-  background-color:  #DE841F;
+  background-color: #de841f;
   padding: 10px;
 }
 </style>
 
 <script>
 export default {
-    name: 'Temporary',
-    data: () => ({
-      showNavigation: false,
-      showSidepanel: false,
-    })
-  }
-  'ThemeColors',
-  'MediaCover',
-  'Normal',
-  'PaperContent',
-  'RegularCards',
-  'TripleLine'
+  name: "Temporary",
+  data: () => ({
+    showNavigation: false,
+    showSidepanel: false
+  })
+};
+"ThemeColors",
+  "MediaCover",
+  "Normal",
+  "PaperContent",
+  "RegularCards",
+  "TripleLine";
 </script>

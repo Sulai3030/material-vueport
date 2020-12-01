@@ -19,7 +19,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
-  background-color:#004069;
+  background-color: #004069;
   color: #004069;
   width: 1800px;
 }
@@ -29,21 +29,20 @@
   text-align: center;
   width: 1000px;
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
   a {
     font-weight: bold;
-    color: #F29F2C;
+    color: #f29f2c;
 
     &.router-link-exact-active {
-      color: #F29F2C;
+      color: #f29f2c;
     }
   }
-  }
-.md-list-item-text{
-  width: 1000px;
-  color:#F29F2C;
 }
-
+.md-list-item-text {
+  width: 1000px;
+  color: #f29f2c;
+}
 </style>
 <script>
 import Vue from "vue";
@@ -53,6 +52,10 @@ import {
   MdTabs,
   MdToolbar,
   MdDrawer,
+  MdCard,
+  MdWithHover,
+  MdRipple,
+  MdWithHeader
 } from "vue-material/dist/components";
 import "vue-material/dist/vue-material.min.css";
 import "vue-material/dist/theme/default.css";
@@ -62,6 +65,11 @@ Vue.use(MdContent);
 Vue.use(MdTabs);
 Vue.use(MdToolbar);
 Vue.use(MdDrawer);
+Vue.use(MdCard);
+Vue.Use(MdWithHover);
+Vue.Use(MdWithHeader);
+Vue.Use(MdRipple);
+
 export default {
   name: "MaterialIcons"
 };
@@ -72,6 +80,6 @@ Vue.material.router.linkActiveClass = linkActiveClass;
 
 // pass custom class to Vue Router
 {
- "RegularToolbar";
+  ("RegularToolbar");
 }
 </script>
